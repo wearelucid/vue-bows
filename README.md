@@ -1,13 +1,13 @@
 # vue-log
 
-Vue.js plugin for clear and understandable console logs.
+Vue.js plugin for clear and understandable console logs. <br>
 It displays nice logs based on the component
 written. It makes your logs clear and organized.
 
 ## Installation
 
 ```bash
-yarn add https://github.com/wearelucid/vue-log.git#1.0.2
+yarn add https://github.com/wearelucid/vue-log.git#1.0.3
 ```
 
 ## Integration & Usage
@@ -19,7 +19,7 @@ import { Log } from 'vue-log'
 
 Vue.use(Log)
 
-// Then you will be able to use it globally across your Project. Usage Example:
+// You are now able to use it globally in your Project. Like this:
 mounted () {
   this.log('string')
   this.log(variable)
