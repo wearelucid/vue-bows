@@ -1,4 +1,4 @@
-# vue-log
+# vue-bows
 
 Vue.js plugin for clear and understandable console logs. <br>
 It displays nice logs based on the component
@@ -7,7 +7,7 @@ written. It makes your logs clear and organized.
 ## Installation
 
 ```bash
-yarn add https://github.com/wearelucid/vue-log.git#1.0.5
+yarn add https://github.com/wearelucid/vue-bows.git#1.0.5
 ```
 
 ## Integration & Usage
@@ -15,7 +15,7 @@ yarn add https://github.com/wearelucid/vue-log.git#1.0.5
 ```javascript
 // import
 import Vue from 'vue'
-import { Log } from 'vue-log'
+import { Log } from 'vue-bows'
 
 Vue.use(Log)
 ```
@@ -39,10 +39,10 @@ export default {
 ```javascript
 
 // Create following file in your plugins folder. and Add
-'plugins/vue-log.js'
+'plugins/vue-bows.js'
 
 // Then add the plugin to your 'nuxt.config.js'
 plugins: [
-  '~/plugins/vue-log'
+  '~/plugins/vue-bows'
 ]
 ```
