@@ -15,7 +15,7 @@ yarn add https://github.com/wearelucid/vue-bows.git#1.0.7
 ```javascript
 // import
 import Vue from 'vue'
-import { Log } from 'vue-bows'
+import Log from 'vue-bows'
 
 Vue.use(Log)
 ```

@@ -3,7 +3,7 @@
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.log = exports.createLogger = exports.bows = undefined;
+exports.Log = exports.log = exports.createLogger = exports.bows = undefined;
 
 var _vue = require('vue');
 
@@ -41,3 +41,4 @@ exports.default = Log;
 exports.bows = _bows2.default;
 exports.createLogger = _bows2.default;
 exports.log = log;
+exports.Log = Log;

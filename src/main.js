@@ -24,4 +24,4 @@ const Log = {
 Vue.use(Log)
 
 export default Log
-export { bows, bows as createLogger, log }
+export { bows, bows as createLogger, log, Log }
