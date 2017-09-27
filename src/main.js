@@ -6,7 +6,9 @@ bows.config({
   separator: '//'
 })
 
-export const Log = {
+const log = bows('')
+
+const Log = {
   install (Vue) {
     Vue.mixin({
       created () {
@@ -20,3 +22,6 @@ export const Log = {
 }
 
 Vue.use(Log)
+
+export default Log
+export { bows, bows as createLogger, log }

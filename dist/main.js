@@ -3,7 +3,7 @@
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.Log = undefined;
+exports.log = exports.createLogger = exports.bows = undefined;
 
 var _vue = require('vue');
 
@@ -20,7 +20,9 @@ _bows2.default.config({
   separator: '//'
 });
 
-var Log = exports.Log = {
+var log = (0, _bows2.default)('');
+
+var Log = {
   install: function install(Vue) {
     Vue.mixin({
       created: function created() {
@@ -34,3 +36,8 @@ var Log = exports.Log = {
 };
 
 _vue2.default.use(Log);
+
+exports.default = Log;
+exports.bows = _bows2.default;
+exports.createLogger = _bows2.default;
+exports.log = log;
