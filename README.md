@@ -7,23 +7,34 @@ written. It makes your logs clear and organized.
 ## Installation
 
 ```bash
-yarn add git+ssh://git@github.com:wearelucid/vue-log#1.0.0
+yarn add https://github.com/wearelucid/vue-log.git#1.0.1
 ```
 
 ## Integration & Usage
 
 ```javascript
-// imort
-import log from '~/plugins/vue-log'
+// import
+import Vue from 'vue'
+import { Log } from 'vue-log'
 
-// Usage
-this.log('string')
-this.log(variable)
-this.log('string', variable)
+Vue.use(Log)
+
+// Then you will be able to use it globally across your Project. Usage Example:
+mounted () {
+  this.log('string')
+  this.log(variable)
+  this.log('string', variable)
+}
 ```
 
-The output in the console will look like this:
+### Integration with Nuxt.js
+```javascript
 
-```bash
-  // ComponentName 'your log', yourVariable
+// Create following file in your plugins folder.
+'plugins/vue-log.js'
+
+// Then add the plugin to your 'nuxt.config.js'
+plugins: [
+  '~/plugins/vue-log'
+]
 ```
