@@ -7,7 +7,7 @@ written. It makes your logs clear and organized.
 ## Installation
 
 ```bash
-yarn add https://github.com/wearelucid/vue-log.git#1.0.3
+yarn add https://github.com/wearelucid/vue-log.git#1.0.4
 ```
 
 ## Integration & Usage

@@ -1,6 +1,6 @@
 {
   "name": "vue-log",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "vue.js plugin for clear console logs",
   "main": "dist/main.js",
   "repository": "https://github.com/wearelucid/vue-log.git",
