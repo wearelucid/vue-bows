@@ -1,6 +1,6 @@
 {
   "name": "vue-bows",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "vue.js plugin for clear console logs",
   "main": "dist/main.js",
   "repository": "https://github.com/wearelucid/vue-bows.git",
