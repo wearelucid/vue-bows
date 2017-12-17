@@ -46,3 +46,7 @@ plugins: [
   '~/plugins/vue-bows'
 ]
 ```
+
+### Enable your browser
+
+First you must enable it in your browsers console: Type localStorage.debug = true in your browser's console to activate it.
