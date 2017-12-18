@@ -34,6 +34,15 @@ export default {
   }
 }
 ```
+### Usage outside of components
+```javascript
+import { createLogger } from 'vue-bows'
+
+const log = createLogger('nameOfTheLogger') // replace name with something meaningful
+
+log('Log this')
+```
+
 
 ### Integration with Nuxt.js
 ```javascript
