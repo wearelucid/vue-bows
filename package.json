@@ -12,7 +12,7 @@
   ],
   "license": "MIT",
   "dependencies": {
-    "bows": "^1.7.0"
+    "bows": "git+https://github.com/wearelucid/bows.git#6e29c082588a9c2d6cfb24a7845028eb83991321"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
