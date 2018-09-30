@@ -1,5 +1,7 @@
 # vue-bows
 
+[![npm version](https://img.shields.io/npm/v/@wearelucid/vue-bows.svg?style=flat-square)](https://www.npmjs.com/package/@wearelucid/vue-bows)
+
 Vue.js plugin for clear and understandable console logs. <br>
 It displays nice logs based on the component
 written. It makes your logs clear and organized.
@@ -7,7 +9,7 @@ written. It makes your logs clear and organized.
 ## Installation
 
 ```bash
-yarn add vue-bows
+yarn add @wearelucid/vue-bows
 ```
 
 ## Integration & Usage
