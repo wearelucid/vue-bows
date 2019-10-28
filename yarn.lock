@@ -630,9 +630,9 @@ binary-extensions@^1.0.0:
   version "1.13.0"
   resolved "https://registry.yarnpkg.com/binary-extensions/-/binary-extensions-1.13.0.tgz#9523e001306a32444b907423f1de2164222f6ab1"
 
-bows@wearelucid/bows#8c156789b0c0fbc740acfdd278fd3327663b5cab:
+bows@wearelucid/bows#e10050ceb1ba6fe1956396827ef95acd93b73c0a:
   version "1.7.0"
-  resolved "https://codeload.github.com/wearelucid/bows/tar.gz/8c156789b0c0fbc740acfdd278fd3327663b5cab"
+  resolved "https://codeload.github.com/wearelucid/bows/tar.gz/e10050ceb1ba6fe1956396827ef95acd93b73c0a"
   dependencies:
     andlog "^1.0.1"
 
