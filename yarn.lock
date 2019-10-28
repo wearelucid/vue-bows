@@ -546,9 +546,9 @@ abbrev@1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/abbrev/-/abbrev-1.1.1.tgz#f8f2c887ad10bf67f634f005b6987fed3179aac8"
 
-andlog@^1.0.1:
+andlog@wearelucid/andlog#f289e95bd74948c9e085c0c0650e70f37cf968da:
   version "1.0.1"
-  resolved "https://registry.yarnpkg.com/andlog/-/andlog-1.0.1.tgz#afc6512b6e809f5bba63c6646d8685ccead19f11"
+  resolved "https://codeload.github.com/wearelucid/andlog/tar.gz/f289e95bd74948c9e085c0c0650e70f37cf968da"
 
 ansi-regex@^2.0.0:
   version "2.1.1"
@@ -630,11 +630,11 @@ binary-extensions@^1.0.0:
   version "1.13.0"
   resolved "https://registry.yarnpkg.com/binary-extensions/-/binary-extensions-1.13.0.tgz#9523e001306a32444b907423f1de2164222f6ab1"
 
-bows@wearelucid/bows#ac298e11d52746ce01d64ce580702f01b4bc67de:
+bows@wearelucid/bows#b99e389478f916dfe10b8eb8054d69f677706a02:
   version "1.7.0"
-  resolved "https://codeload.github.com/wearelucid/bows/tar.gz/ac298e11d52746ce01d64ce580702f01b4bc67de"
+  resolved "https://codeload.github.com/wearelucid/bows/tar.gz/b99e389478f916dfe10b8eb8054d69f677706a02"
   dependencies:
-    andlog "^1.0.1"
+    andlog wearelucid/andlog#f289e95bd74948c9e085c0c0650e70f37cf968da
 
 brace-expansion@^1.1.7:
   version "1.1.11"
