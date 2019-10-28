@@ -8,7 +8,7 @@
   "license": "MIT",
   "dependencies": {
     "@babel/core": "^7.1.0",
-    "bows": "wearelucid/bows#bugfix/andlogkey-check"
+    "bows": "wearelucid/bows#8c156789b0c0fbc740acfdd278fd3327663b5cab"
   },
   "devDependencies": {
     "@babel/cli": "^7.1.0",
