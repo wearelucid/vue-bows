@@ -546,9 +546,10 @@ abbrev@1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/abbrev/-/abbrev-1.1.1.tgz#f8f2c887ad10bf67f634f005b6987fed3179aac8"
 
-andlog@wearelucid/andlog#f289e95bd74948c9e085c0c0650e70f37cf968da:
-  version "1.0.1"
-  resolved "https://codeload.github.com/wearelucid/andlog/tar.gz/f289e95bd74948c9e085c0c0650e70f37cf968da"
+andlog@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/andlog/-/andlog-1.0.2.tgz#0e77a44f62a782be3a78a7527beb5761c183f044"
+  integrity sha512-ne6ibcbv3wqZHzbXarG7NfOpU2ai5ao6429ocq1betBBDDx7KE7R6k0IIeaT29JNko0lA88yVzHRRuxX2wpkHQ==
 
 ansi-regex@^2.0.0:
   version "2.1.1"
@@ -630,11 +631,12 @@ binary-extensions@^1.0.0:
   version "1.13.0"
   resolved "https://registry.yarnpkg.com/binary-extensions/-/binary-extensions-1.13.0.tgz#9523e001306a32444b907423f1de2164222f6ab1"
 
-bows@wearelucid/bows#b99e389478f916dfe10b8eb8054d69f677706a02:
-  version "1.7.0"
-  resolved "https://codeload.github.com/wearelucid/bows/tar.gz/b99e389478f916dfe10b8eb8054d69f677706a02"
+bows@v1.7.1:
+  version "1.7.1"
+  resolved "https://registry.yarnpkg.com/bows/-/bows-1.7.1.tgz#f782e8d06cd879c68982cbfc812af8ec31be1484"
+  integrity sha512-2ILE8J1g1EFW3X0a8/+oalRN3GBsEDerROKb71+h8fmjlc06MSFHDPGZCdi1u/AF7SWK4fM5CGxo2on4SbtMRg==
   dependencies:
-    andlog wearelucid/andlog#f289e95bd74948c9e085c0c0650e70f37cf968da
+    andlog "^1.0.2"
 
 brace-expansion@^1.1.7:
   version "1.1.11"
